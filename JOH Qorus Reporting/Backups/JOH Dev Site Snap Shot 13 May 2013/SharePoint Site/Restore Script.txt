@@ -1,0 +1,3 @@
+Export-spweb –identity http://sp2010:8083/abc -path c:\sitebkup\mysite.bak
+
+Import-SPWeb –identity http://sp2010:8083/ict -path c:\sitebkup\mysite.bak
